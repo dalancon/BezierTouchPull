@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jie.demo_01.MainActivity">
+
+    <!--<com.jie.demo_01.TouchPullView-->
+        <!--android:id="@+id/touchView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--app:pContentDrawable="@drawable/circle_content"-->
+        <!--app:pContentDrawableMargin="3dp" />-->
+
+    <com.jie.demo_01.MyTouchPullView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/touchView"/>
+</LinearLayout>
